@@ -8,7 +8,7 @@ module.exports = {
   },
   functions: {
     createdAt: () => `Created at ${new Date().toLocaleDateString()}`,
-    moduleName: (ctx) => `cool-group-${ctx.parametersValues.owner.toLowerCase()}`
+    moduleName: (ctx) => `cool-group-${ctx.parametersValues.owner.toLowerCase().replace(/ /g, '')}`
   },
   templatesOptions: {
     cli: {
