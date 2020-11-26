@@ -3,11 +3,8 @@
     "module": "commonJs",
     "target": "es6",
     "outDir": "dist/",
-    "preserveConstEnums": true,
-    "lib": ["es6"],
-    "esModuleInterop": true,
-    "skipLibCheck": true
+    "lib": ["es6"]
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  "files": ["src/cli.ts"],
+  "exclude": ["node_modules"]
 }
