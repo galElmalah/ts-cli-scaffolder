@@ -1,6 +1,9 @@
 {
   "name": "{{moduleName()}}",
   "version": "1.0.0",
+  "bin": {
+    "coolGroup": "./dist/cli.js"
+  },
   "description": "{{owner}} Cool CLI",
     "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
